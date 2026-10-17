@@ -33,3 +33,11 @@ python attendance_test.py
 ## Note
 These are standalone demonstration tests.
 They do not connect to a live AttendX application.
+
+## Version Control Workflow
+
+The project uses Git for local version control
+and GitHub for remote storage and collaboration.
+
+Changes are staged, committed, pushed, and pulled
+to keep the local and remote repositories synchronized.
