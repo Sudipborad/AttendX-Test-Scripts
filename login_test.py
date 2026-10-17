@@ -16,7 +16,8 @@ class LoginTest(unittest.TestCase):
 
     def test_empty_password(self):
         self.assertFalse(validate_login("student01", ""))
-
+    def test_whitespace_username(self):
+        self.assertFalse(validate_login("   ", "pass123"))
 
 if __name__ == "__main__":
     unittest.main()
